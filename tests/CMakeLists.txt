@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 2.8)
 
-set(TESTS_FOR_PROJECT calculator_for_tests)
+set(TESTS_FOR_PROJECT calculatorfor_tests)
 
 project(${TESTS_FOR_PROJECT}_tests)
 
