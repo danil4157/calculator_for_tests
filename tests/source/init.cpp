@@ -39,7 +39,7 @@
    } 
 
     SCENARIO ("calculator square_root", "[square_root]"){
-    float a = 0.04;
-    double rv = square_root (a);
-REQUIRE ( rv == 0.2 );
+    float a = 4.0;
+    float rv = square_root (a);
+REQUIRE ( rv == 2.0 );
 }
