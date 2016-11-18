@@ -34,7 +34,7 @@
      float a = 7.0;
      int c = 2;
      
-     float rv = involution(a,b);
+     float rv = involution(a,c);
       REQUIRE (rv == 49.0);
    } 
 
