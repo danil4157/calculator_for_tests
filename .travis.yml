@@ -1,4 +1,3 @@
-
 language: generic
 os:
 - osx
@@ -15,3 +14,5 @@ matrix:
             - ubuntu-toolchain-r-test
 script:
 - mkdir build
+- cd build
+- cmake .. && make
