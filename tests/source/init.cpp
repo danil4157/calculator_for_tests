@@ -1,5 +1,5 @@
-#include <calculator.hpp>
-#include <catch.hpp>
+#include <Calculator.hpp>
+#include <Catch.hpp>
 
  SCENARIO("calculator summary", "[summary]") {
     float a = 7.0;
