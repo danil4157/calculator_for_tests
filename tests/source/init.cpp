@@ -40,6 +40,6 @@
 
     SCENARIO ("calculator square_root", "[square_root]"){
     float a = 0.04;
-    double long rv = square_root (a);
+    double rv = square_root (a);
 REQUIRE ( rv == 0.2 );
 }
