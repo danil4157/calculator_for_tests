@@ -5,41 +5,41 @@
     float a = 7.0;
     float b = 4.0;
     
-    float rv = summary(a,b);
+    double rv = summary(a,b);
     
       REQUIRE( rv == 11.0);
   }
-   SCENARIO("calculator sub", "[sub]") {
+   SCENARIO("calculator subtraction", "[subtraction]") {
      float a = 7.0;
      float b = 4.0;
      
-     float rv = sub(a,b);
+     double rv = subtraction(a,b);
       REQUIRE (rv == 3.0);
    }
   SCENARIO("calculator multiplication", "[multiplication]") {
      float a = 7.0;
      float b = 4.0;
      
-     float rv = multiplication(a,b);
+     double rv = multiplication(a,b);
       REQUIRE (rv == 28.0);
    }
   SCENARIO("calculator division", "[division]") {
      float a = 7.0;
      float b = 4.0;
      
-     float rv = division(a,b);
+     double rv = division(a,b);
       REQUIRE (rv == 1.75);
    }
   SCENARIO("calculator involution", "[involution]") {
      float a = 7.0;
-     float b = 4.0;
+     int c = 2;
      
      float rv = involution(a,b);
-      REQUIRE (rv == 2401.0);
+      REQUIRE (rv == 49.0);
    } 
 
-    SCENARIO ("calculator square-root", "[square_root]"){
-    float x = 0.04;
-    double long rv = square_root (x);
+    SCENARIO ("calculator square_root", "[square_root]"){
+    float a = 0.04;
+    double long rv = square_root (a);
 REQUIRE ( rv == 0.2 );
 }
